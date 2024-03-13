@@ -28,15 +28,15 @@ export function inputsForScene(options: {
     createButton('Wind scene', () => {
       onChangeScene('Wind Scene', true);
     }),
-    createButton('Paint scene', () => {
-      onChangeScene('Paint Scene', true);
-    }),
-    createButton('Tank scene', () => {
-      onChangeScene('Tank Scene', true);
-    }),
-    createButton('HiRes scene', () => {
-      onChangeScene('HiRes Scene', true);
-    }),
+    // createButton('Paint scene', () => {
+    //   onChangeScene('Paint Scene', true);
+    // }),
+    // createButton('Tank scene', () => {
+    //   onChangeScene('Tank Scene', true);
+    // }),
+    // createButton('HiRes scene', () => {
+    //   onChangeScene('HiRes Scene', true);
+    // }),
   ];
 
   inputs.push(createBreak());

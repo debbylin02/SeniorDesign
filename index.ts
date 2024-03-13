@@ -1,5 +1,3 @@
-// Original: https://github.com/p-sun/typescript-fluid-simulator
-
 import { createFluidSim } from './src/FluidSim';
 import {vec2} from 'gl-matrix'; 
 
@@ -11,3 +9,4 @@ const fluidSim = createFluidSim({
   resolutionOverride: undefined,
   autostart: true,
 });
+

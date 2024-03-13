@@ -19,6 +19,7 @@ export class Canvas {
       willReadFrequently: true,
     }) as CanvasRenderingContext2D;
     this.setCanvasSize(newSize);
+    
     this.setupListeners();
   }
 

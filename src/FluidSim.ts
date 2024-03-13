@@ -11,7 +11,8 @@ import {
 import { Canvas, CanvasListener } from './Utils/Canvas';
 import {vec2} from 'gl-matrix'; 
 
-export class FluidSim implements CanvasListener {
+// export class FluidSim implements CanvasListener {
+  export class FluidSim {
   private scene: Scene;
   private mouseDown = false;
   // private readonly context: WebGL2RenderingContext;
